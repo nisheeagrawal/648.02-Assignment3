@@ -1,0 +1,33 @@
+{
+  "name": "cs648.02-assignment-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon -w server -e js,graphql server/server.js",
+    "watch": "babel --presets react --out-dir public --watch src",
+    "compile": "babel --presets react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushidubey16/CS648.02-Assignment-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayushidubey16/CS648.02-Assignment-3/issues"
+  },
+  "homepage": "https://github.com/aayushidubey16/CS648.02-Assignment-3#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "express": "^4.17.3",
+    "graphql": "^0.13.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.15"
+  }
+}
